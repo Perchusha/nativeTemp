@@ -8,11 +8,14 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "eject": "rimraf ios && rimraf android && react-native eject"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.7",
+    "react-native-eject": "^0.2.0",
+    "rimraf": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
